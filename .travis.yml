@@ -1,0 +1,13 @@
+os:
+  - linux
+language: python
+script:
+  - python -m pytest -v
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: KEY
+  app: azizwebportfolio
+  on:
+    repo: azizMavlyanov/web_portfolio

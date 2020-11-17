@@ -3,6 +3,10 @@ import csv
 
 app = Flask(__name__)
 
+#Testing to check if it works
+@app.route('/test')
+def test():
+    return "Works!"
 
 @app.route('/')
 def my_home():
