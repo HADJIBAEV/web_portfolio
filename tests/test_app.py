@@ -1,6 +1,16 @@
 import unittest
 
-import app
+from app import app
 
-def test_test():
-    assert app.test() == "Works!"
+
+class BasicTestCase(unittest.TestCase):
+    def test_home(self):
+        tester = app.test_client(self)
+        pages = ['/', 'about', 'works', 'contact']
+        for page in pages:
+            response = tester.get(page, content_type='html/text')
+            self.assertEqual(response.status_code, 200)
+
+
+if __name__ == '__main__':
+    unittest.main()
