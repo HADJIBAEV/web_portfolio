@@ -6,7 +6,7 @@
     <channel>
         <!-- Информация о сайте-источнике -->
         <title>Обо мне</title>
-        <link>https://azizwebportfolio.herokuapp.com/about</link>
+        <link>https://azizwebportfolio.herokuapp.com</link>
         <description>Краткое описание канала</description>
         <language>ru</language>
         <turbo:analytics></turbo:analytics>
