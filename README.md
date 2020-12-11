@@ -8,6 +8,9 @@ Aziz Mavlyanov
 
 HTML, CSS, JavaScript, Python, Flask, Travis CI
 
+## Project Demo
+Link to the project: [demo](http://azizwebportfolio.herokuapp.com/)
+
 ## Installation and usage of the project locally
 
 **Please make sure that you have python, pip installed on your PC (Notebook)**
